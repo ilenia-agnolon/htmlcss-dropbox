@@ -298,7 +298,7 @@ h1 {
     width: 70%;
     margin: 0 auto;
     /* debug */
-    background-color: rgb(220, 131, 14);
+    /* background-color: rgb(220, 131, 14); */
     /* height: 1000px; */
     color: white;
 }
@@ -310,7 +310,7 @@ h1 {
     display: flex;
     justify-content: center;
     /* debug */
-    background-color: lightblue;
+    /* background-color: lightblue; */
     /* height: 500px; */
 }
 
@@ -318,17 +318,31 @@ h1 {
 .col-footer {
     width: 100%;
      /* debug */
-    height: 200px;
-    background-color: rgb(0, 23, 76);
-    border: 1px solid rgb(255, 56, 218);    
+    /* height: 200px; */
+    /* background-color: rgb(0, 23, 76);
+    border: 1px solid rgb(255, 56, 218);     */
+}
+
+footer h3 {
+    padding-bottom: 20px;
+}
+
+.lista-footer {
+    list-style: none;
+}
+
+.lista-footer li a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
 }
 
 /* inserimento lingua (italiano) */
 .box-lingua {
     width: 20%;
-    border-top: 2px solid green;
+    border-top: 2px solid rgb(255, 255, 255);
     padding-top: 20px;
     /* debug */
-    background-color: rgb(220, 185, 191);
+    /* background-color: rgb(220, 185, 191); */
     height: 50px;
 }

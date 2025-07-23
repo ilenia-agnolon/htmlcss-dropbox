@@ -68,7 +68,6 @@ background-color: lavender;
 
 /* CONTENITORE PIANI BUSINESS */
 .business-plan-container {
-    margin: 0 auto;
     /* debug */
     background-color: rgb(251, 161, 206);
     height: 1000px;
@@ -76,14 +75,12 @@ background-color: lavender;
 
 /* titolo piani */
 .container-titolo-piano-business {
-    margin: 0 auto;
     /* debug */
     background-color: rgb(120, 57, 164);
     height: 80px;
 }
 
 .container-checkbox-e-txt-fatturazione {
-    margin: 0 auto;
     /* debug */
     background-color: rgb(251, 177, 73);
     height: 30px;
@@ -91,7 +88,6 @@ background-color: lavender;
 
     /* contenitore piani in colonne (Professional, Advanced, Enterprise-Azienda */
 .container-1-business-plan {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -109,7 +105,6 @@ background-color: lavender;
 
     /* contenitore piano singolo (Enterprise-Team) */
 .container-2-business-plan {
-    margin: 0 auto;
     /* debug */
     background-color: rgb(2, 2, 143);
     height: 200px;
@@ -127,7 +122,6 @@ background-color: lavender;
 
  /* box per immagine a sinistra e testo a destra */
  .box-img-e-txt {
-     margin: 0 auto;
      display: flex;
      justify-content: center;
     /* debug */
@@ -151,15 +145,13 @@ background-color: lavender;
 
 /* DROPBOX OPERATIONS (griglia a 6 celle) */
 .d-operations-container {
-     margin: 0 auto;
     /* debug */
     background-color: rgb(49, 95, 44);
-    height: 1000px;
+    height: 500px;
 }
 
 /* container-titolo-griglia */
 .container-titolo-griglia {
-    margin: 0 auto;
     /* debug */
     background-color: rgb(91, 164, 233);
     height: 80px;
@@ -167,7 +159,6 @@ background-color: lavender;
 
 /* <!-- griglia --> */
 .container-griglia {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -185,5 +176,32 @@ background-color: lavender;
     border: 1px solid black;
 }
 
+/* UTILIZZATORI DROPBOX */
+.container-users-and-link {
+   padding-top: 100px;
+    /* debug */
+    background-color: rgb(237, 197, 204);
+    height: 300px;
+}
+
+/* frase-utilizzatori */
+.box-frase-utilizzatori {
+    width: 65%;
+    /* debug */
+    background-color: rgb(156, 41, 206);
+    height: 90px;
+}
+
+/* link "scopri di più" */
+.container-link-scopri-di-più {
+    width: 35%;
+    /* debug */
+    background-color: rgb(140, 123, 148);
+    height: 70px;
+}
+
+#scopri {
+    font-size: 12px;
+}
 /* _____________________________ */
 /* FOOTER */

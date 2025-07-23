@@ -86,7 +86,7 @@ h1 {
     /* position: relative; */
     /* debug */
     background-color: green;
-    /* height: 500px; */
+    height: 500px;
 }
 
 
@@ -196,14 +196,14 @@ h1 {
      display: flex;
      justify-content: center;
     /* debug */
-    background-color: rgb(255, 177, 81);
+    /* background-color: rgb(255, 177, 81); */
     /* height: 250px; */
  }
 
  #box-img {
-    width: 50%;
+    width: 60%;
     /* debug */
-    background-color: rgb(168, 255, 168);
+    /* background-color: rgb(168, 255, 168); */
     /* height: 250px; */
  }
 
@@ -213,9 +213,9 @@ h1 {
  }
 
  #box-txt {
-    width: 50%;
+    width: 40%;
     /* debug */
-    background-color: rgb(88, 222, 255);
+    /* background-color: rgb(88, 222, 255); */
     height: 250px;
  }
 

@@ -63,7 +63,7 @@ background-color: lavender;
     padding-top: 50px;
     /* DEBUG */
     background-color: bisque;
-    height: 1000px;
+    height: 3000px;
 }
 
 /* CONTENITORE PIANI BUSINESS */
@@ -71,7 +71,7 @@ background-color: lavender;
     margin: 0 auto;
     /* debug */
     background-color: rgb(251, 161, 206);
-    height: 700px;
+    height: 1000px;
 }
 
 /* titolo piani */
@@ -115,12 +115,39 @@ background-color: lavender;
     height: 200px;
 }
 
-.business-plan-singolo {
+.box-business-plan-singolo {
     width: 100%;
     /* debug */
     height: 150px;
     background-color: rgb(182, 182, 182);
 }
+
+ /* CONTENITORE SEZIONE PARTNER */
+
+
+ /* box per immagine a sinistra e testo a destra */
+ .box-img-e-txt {
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+    /* debug */
+    background-color: rgb(255, 177, 81);
+    height: 250px;
+ }
+
+ #box-img {
+    width: 50%;
+    /* debug */
+    background-color: rgb(168, 255, 168);
+    height: 250px;
+ }
+
+ #box-txt {
+    width: 50%;
+    /* debug */
+    background-color: rgb(88, 222, 255);
+    height: 250px;
+ }
 
 /* _____________________________ */
 /* FOOTER */

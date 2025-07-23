@@ -53,9 +53,31 @@ background-color: lavender;
 .main-container {
     width: 60%;
     margin: 0 auto;
+    padding-top: 50px;
     /* DEBUG */
     background-color: bisque;
     height: 1000px;
+}
+
+.business-plan-container {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(251, 161, 206);
+    height: 700px;
+}
+
+.container-1-business-plan {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(174, 224, 174);
+    height: 500px;
+}
+
+.container-2-business-plan {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(2, 2, 143);
+    height: 200px;
 }
 /* _____________________________ */
 /* FOOTER */

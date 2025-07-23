@@ -50,6 +50,12 @@ background-color: lavender;
     background-color: #b4d0e7;
 }
 
-
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: bisque;
+    height: 1000px;
+}
 /* _____________________________ */
 /* FOOTER */

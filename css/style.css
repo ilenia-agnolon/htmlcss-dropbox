@@ -161,15 +161,21 @@ h1 {
     /* debug */
     /* height: 400px; */
     background-color: rgb(182, 182, 182);
+    border: 1px solid #d0d0d0;;
 }
 
 /* vari dettagli piano */
 .singolo-team-azienda {
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #d0d0d0;
 }
 
 .tipo-piano-e-costo {
-    background-color: aquamarine;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .cosa-include {

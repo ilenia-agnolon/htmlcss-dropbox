@@ -16,7 +16,7 @@
    display: flex;
    align-items: center;
    position: fixed;
-   /* z-index: 1000; */
+   z-index: 1000;
  /* DEBUG */
 background-color: cadetblue;
 }
@@ -43,6 +43,13 @@ background-color: lavender;
 
 /* _____________________________ */
 /* MAIN */
+
+.jumbotron {
+    height: 500px;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
 
 /* _____________________________ */
 /* FOOTER */

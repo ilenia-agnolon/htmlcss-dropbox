@@ -50,10 +50,47 @@ background-color: lavender;
 
 
 /* jumbotron */
-.jumbotron {
-    height: 500px;
+.container-jumbotron {
+    height: 700px;
     width: 100%;
     background-color: #b4d0e7;
+    padding-top: 60px;
+}
+
+/* sez titolo */
+.container-titolo-princ {
+    /* debug */
+    width: 70%;
+    height: 50px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.cont-elementi-jumbo {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* debug */
+    background-color: green;
+    height: 500px;
+}
+
+
+/* testo a sx */
+.jumbo-txt-container {
+    width: 40%;
+    /* debug */
+    background-color: pink;
+    height: 90px;
+}
+
+/* img */
+.jumbo-img-container {
+    width: 40%;
+    /* debug */
+    background-color: rgb(0, 81, 143);
+    height: 90px;
 }
 
 /* CONTENITORE MAIN CON DENTRO TUTTE LE SEZIONI */
@@ -118,8 +155,6 @@ background-color: lavender;
 }
 
  /* CONTENITORE SEZIONE PARTNER */
-
-
  /* box per immagine a sinistra e testo a destra */
  .box-img-e-txt {
      display: flex;
@@ -207,6 +242,11 @@ background-color: lavender;
 /* FOOTER */
 
 /* FOOTER CONTAINER */
+.black-cont {
+    width: 100%;
+    background-color: black;
+}
+
 .footer-container {
     width: 70%;
     margin: 0 auto;

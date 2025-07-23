@@ -44,12 +44,15 @@ background-color: lavender;
 /* _____________________________ */
 /* MAIN */
 
+
+/* jumbotron */
 .jumbotron {
     height: 500px;
     width: 100%;
     background-color: #b4d0e7;
 }
 
+/* CONTENITORE MAIN CON DENTRO TUTTE LE SEZIONI */
 .main-container {
     width: 60%;
     margin: 0 auto;
@@ -59,6 +62,7 @@ background-color: lavender;
     height: 1000px;
 }
 
+/* CONTENITORE PIANI BUSINESS */
 .business-plan-container {
     margin: 0 auto;
     /* debug */
@@ -66,18 +70,32 @@ background-color: lavender;
     height: 700px;
 }
 
+    /* contenitore piani in colonne (Professional, Advanced, Enterprise-Azienda */
 .container-1-business-plan {
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     /* debug */
     background-color: rgb(174, 224, 174);
     height: 500px;
 }
 
+.col-business-plan {
+    width: calc(100% / 3);
+    /* debug */
+    height: 400px;
+    background-color: rgb(182, 182, 182);
+}
+
+    /* contenitore piano singolo (Enterprise-Team) */
 .container-2-business-plan {
     margin: 0 auto;
     /* debug */
     background-color: rgb(2, 2, 143);
     height: 200px;
 }
+
+
 /* _____________________________ */
 /* FOOTER */

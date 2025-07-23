@@ -63,7 +63,7 @@ background-color: lavender;
     padding-top: 50px;
     /* DEBUG */
     background-color: bisque;
-    height: 4000px;
+    /* height: 4000px; */
 }
 
 /* CONTENITORE PIANI BUSINESS */
@@ -205,3 +205,43 @@ background-color: lavender;
 }
 /* _____________________________ */
 /* FOOTER */
+
+/* FOOTER CONTAINER */
+.footer-container {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(220, 131, 14);
+    /* height: 1000px; */
+    color: white;
+}
+
+
+/* container info (dropbox, prodotti, azienda, supporto, community) */
+.container-info-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* debug */
+    background-color: lightblue;
+    /* height: 500px; */
+}
+
+/* colonne */
+.col-footer {
+    width: 100%;
+     /* debug */
+    height: 200px;
+    background-color: rgb(0, 23, 76);
+    border: 1px solid rgb(255, 56, 218);    
+}
+
+/* inserimento lingua (italiano) */
+.box-lingua {
+    width: 20%;
+    border-top: 2px solid green;
+    padding-top: 20px;
+    /* debug */
+    background-color: rgb(220, 185, 191);
+    height: 50px;
+}

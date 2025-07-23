@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Open Sans";
+}
+
 
 /* _____________________________ */
 /* HEADER */
@@ -68,6 +72,21 @@ background-color: lavender;
     /* debug */
     background-color: rgb(251, 161, 206);
     height: 700px;
+}
+
+/* titolo piani */
+.container-titolo-piano-business {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(120, 57, 164);
+    height: 80px;
+}
+
+.container-checkbox-e-txt-fatturazione {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(251, 177, 73);
+    height: 30px;
 }
 
     /* contenitore piani in colonne (Professional, Advanced, Enterprise-Azienda */

@@ -63,7 +63,7 @@ background-color: lavender;
     padding-top: 50px;
     /* DEBUG */
     background-color: bisque;
-    height: 3000px;
+    height: 4000px;
 }
 
 /* CONTENITORE PIANI BUSINESS */
@@ -148,6 +148,42 @@ background-color: lavender;
     background-color: rgb(88, 222, 255);
     height: 250px;
  }
+
+/* DROPBOX OPERATIONS (griglia a 6 celle) */
+.d-operations-container {
+     margin: 0 auto;
+    /* debug */
+    background-color: rgb(49, 95, 44);
+    height: 1000px;
+}
+
+/* container-titolo-griglia */
+.container-titolo-griglia {
+    margin: 0 auto;
+    /* debug */
+    background-color: rgb(91, 164, 233);
+    height: 80px;
+}
+
+/* <!-- griglia --> */
+.container-griglia {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: rgb(157, 0, 0);
+    height: 500px;
+ }
+
+ /* 6 celle */
+ .col-d-operations {
+    width: calc(100% / 3);
+    /* debug */
+    height: 200px;
+    background-color: rgb(210, 210, 210);
+    border: 1px solid black;
+}
 
 /* _____________________________ */
 /* FOOTER */

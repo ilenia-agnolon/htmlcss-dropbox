@@ -6,7 +6,13 @@
 }
 
 body {
-    font-family: "Open Sans";
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -66,14 +72,21 @@ background-color: lavender;
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+ /* container "stretto" per jumbotron*/
 .cont-elementi-jumbo {
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    /* position: relative; */
     /* debug */
     background-color: green;
-    height: 500px;
+    /* height: 500px; */
 }
 
 
@@ -89,9 +102,17 @@ background-color: lavender;
 .jumbo-img-container {
     width: 40%;
     /* debug */
-    background-color: rgb(0, 81, 143);
+    background-color: blue;
     height: 90px;
 }
+
+.jumbo-img-container img {
+    width: 100%;
+    display: block;
+    
+}
+
+
 
 /* CONTENITORE MAIN CON DENTRO TUTTE LE SEZIONI */
 .main-container {
@@ -135,9 +156,25 @@ background-color: lavender;
 
 .col-business-plan {
     width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
     /* debug */
     height: 400px;
     background-color: rgb(182, 182, 182);
+}
+
+/* vari dettagli piano */
+.singolo-team-azienda {
+    background-color: blue;
+}
+
+.tipo-piano-e-costo {
+    background-color: aquamarine;
+}
+
+.cosa-include {
+    background-color: blueviolet;
 }
 
     /* contenitore piano singolo (Enterprise-Team) */

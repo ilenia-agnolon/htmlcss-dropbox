@@ -70,20 +70,13 @@ background-color: lavender;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* position: relative; */
-    /* debug */
-    /* background-color: green; */
-    /* height: 500px; */
 }
 
 /* sez titolo */
 .container-titolo-princ {
     /* debug */
     width: 70%;
-    margin: 0 auto;
-    /* height: 50px; */
-    /* background-color: red; */
-    
+    margin: 0 auto;    
 }
 
 h1 {
@@ -97,8 +90,6 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 30%;
-    /* debug */
-    /* background-color: violet; */
 }
 
 /* testo a sx */
@@ -163,8 +154,6 @@ h1 {
 
 /* CONTENITORE PIANI BUSINESS */
 .business-plan-container {
-    /* debug */
-    /* background-color: rgb(251, 161, 206); */
     height: 1000px;
 }
 
@@ -262,11 +251,6 @@ hr {
 /* _____________________________ */
 
     /* contenitore piano singolo (Enterprise-Team) */
-.container-2-business-plan {
-    /* debug */
-    /* background-color: rgb(2, 2, 143); */
-    /* height: 200px; */
-}
 
 .box-business-plan-singolo {
     width: 100%;
@@ -285,16 +269,10 @@ hr {
  .box-img-e-txt {
      display: flex;
      justify-content: center;
-    /* debug */
-    /* background-color: rgb(255, 177, 81); */
-    /* height: 250px; */
  }
 
  #box-img {
     width: 60%;
-    /* debug */
-    /* background-color: rgb(168, 255, 168); */
-    /* height: 250px; */
  }
 
  #box-img img {
@@ -304,8 +282,6 @@ hr {
 
  #box-txt {
     width: 40%;
-    /* debug */
-    /* background-color: rgb(88, 222, 255); */
     height: 250px;
  }
 
@@ -317,11 +293,6 @@ hr {
 }
 
 /* DROPBOX OPERATIONS (griglia a 6 celle) */
-.d-operations-container {
-    /* debug */
-    /* background-color: rgb(49, 95, 44); */
-    /* height: 500px; */
-}
 
 /* container-titolo-griglia */
 .container-titolo-griglia {
@@ -335,26 +306,17 @@ hr {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* debug */
-    /* background-color: rgb(157, 0, 0); */
-    /* height: 500px; */
  }
 
  /* 6 celle */
  .col-d-operations {
     width: calc(100% / 3);
-    /* debug */
-    /* height: 200px; */
-    /* background-color: rgb(210, 210, 210); */
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
 }
 
 .img-operations {
     width: 100%;
-    /* debug */
-    /* background-color: blueviolet; */
 }
 
  .img-operations img {
@@ -364,32 +326,22 @@ hr {
 
 .txt-operations {
     width: 100%;
-    /* debug */
-    /* background-color: pink; */
 }
 
 /* UTILIZZATORI DROPBOX */
 .container-users-and-link {
-   padding-top: 100px;
-    /* debug */
-    /* background-color: rgb(237, 197, 204); */
-    height: 300px;
+   padding: 100px 0;
 }
 
 /* frase-utilizzatori */
 .box-frase-utilizzatori {
     width: 65%;
-    /* debug */
-    /* background-color: rgb(156, 41, 206); */
     height: 90px;
 }
 
 /* link "scopri di più" */
 .container-link-scopri-di-più {
     width: 35%;
-    /* debug */
-    /* background-color: rgb(140, 123, 148);
-    height: 70px; */
 }
 
 #scopri {

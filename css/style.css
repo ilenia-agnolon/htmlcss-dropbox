@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 body {
-
-  font-family: "Open Sans", sans-serif;
+  
+    font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -57,24 +58,10 @@ background-color: lavender;
 
 /* jumbotron */
 .container-jumbotron {
-    height: 700px;
+    /* height: 700px; */
     width: 100%;
     background-color: #b4d0e7;
     padding-top: 60px;
-}
-
-/* sez titolo */
-.container-titolo-princ {
-    /* debug */
-    width: 70%;
-    height: 50px;
-    background-color: red;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 56px;
-    font-weight: 800;
 }
 
  /* container "stretto" per jumbotron*/
@@ -85,25 +72,74 @@ h1 {
     justify-content: center;
     /* position: relative; */
     /* debug */
-    background-color: green;
-    height: 500px;
+    /* background-color: green; */
+    /* height: 500px; */
 }
 
+/* sez titolo */
+.container-titolo-princ {
+    /* debug */
+    width: 70%;
+    margin: 0 auto;
+    /* height: 50px; */
+    /* background-color: red; */
+    
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+/* spazio a sinistra del jumbo (contenitore testo e pulsante) */
+.jumbo-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* debug */
+    /* background-color: violet; */
+}
 
 /* testo a sx */
 .jumbo-txt-container {
-    width: 40%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 40px;
     /* debug */
-    background-color: pink;
-    height: 90px;
+    /* background-color: pink; */
+    /* height: 90px; */
 }
 
+/* bottone */
+.button {
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0062fe;
+    color: white;
+    font-size: 16px;
+}
+
+.annulla {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.fa-arrow-down {
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
 /* img */
 .jumbo-img-container {
-    width: 40%;
+    width: 70%;
     /* debug */
-    background-color: blue;
-    height: 90px;
+    /* background-color: blue; */
+    /* height: 90px; */
 }
 
 .jumbo-img-container img {
@@ -118,7 +154,7 @@ h1 {
 .main-container {
     width: 60%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 200px;
     /* DEBUG */
     background-color: bisque;
     /* height: 4000px; */
@@ -262,7 +298,7 @@ h1 {
 .container-users-and-link {
    padding-top: 100px;
     /* debug */
-    background-color: rgb(237, 197, 204);
+    /* background-color: rgb(237, 197, 204); */
     height: 300px;
 }
 
@@ -270,7 +306,7 @@ h1 {
 .box-frase-utilizzatori {
     width: 65%;
     /* debug */
-    background-color: rgb(156, 41, 206);
+    /* background-color: rgb(156, 41, 206); */
     height: 90px;
 }
 
@@ -278,8 +314,8 @@ h1 {
 .container-link-scopri-di-più {
     width: 35%;
     /* debug */
-    background-color: rgb(140, 123, 148);
-    height: 70px;
+    /* background-color: rgb(140, 123, 148);
+    height: 70px; */
 }
 
 #scopri {

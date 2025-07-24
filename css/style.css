@@ -122,7 +122,7 @@ h1 {
     background-color: #0062fe;
     color: white;
     font-size: 13px;
-    display: block;
+    display: inline-block;
 }
 
 .annulla {
@@ -164,7 +164,7 @@ h1 {
 /* CONTENITORE PIANI BUSINESS */
 .business-plan-container {
     /* debug */
-    background-color: rgb(251, 161, 206);
+    /* background-color: rgb(251, 161, 206); */
     height: 1000px;
 }
 
@@ -200,7 +200,6 @@ h1 {
     background-color: rgb(255, 255, 255);
     border: 1px solid #d0d0d0;
     padding: 0 20px;
-    height: auto;
     /* debug */
     /* height: 400px; */
     
@@ -220,6 +219,7 @@ h1 {
     line-height: 2;
 }
 
+/* sezione listata */
 ul {
     list-style: none;
 }
@@ -259,20 +259,26 @@ hr {
     margin: 20px 0;
 }
 
+/* _____________________________ */
 
     /* contenitore piano singolo (Enterprise-Team) */
 .container-2-business-plan {
     /* debug */
-    background-color: rgb(2, 2, 143);
-    height: 200px;
+    /* background-color: rgb(2, 2, 143); */
+    /* height: 200px; */
 }
 
 .box-business-plan-singolo {
     width: 100%;
     /* debug */
     height: 150px;
-    background-color: rgb(180, 142, 142);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d0d0d0;;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
+
 
  /* CONTENITORE SEZIONE PARTNER */
  /* box per immagine a sinistra e testo a destra */
@@ -302,6 +308,13 @@ hr {
     /* background-color: rgb(88, 222, 255); */
     height: 250px;
  }
+
+#white-button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    margin-top: 30px;
+}
 
 /* DROPBOX OPERATIONS (griglia a 6 celle) */
 .d-operations-container {

@@ -319,8 +319,8 @@ hr {
 /* DROPBOX OPERATIONS (griglia a 6 celle) */
 .d-operations-container {
     /* debug */
-    background-color: rgb(49, 95, 44);
-    height: 500px;
+    /* background-color: rgb(49, 95, 44); */
+    /* height: 500px; */
 }
 
 /* container-titolo-griglia */
@@ -336,17 +336,36 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     /* debug */
-    background-color: rgb(157, 0, 0);
-    height: 500px;
+    /* background-color: rgb(157, 0, 0); */
+    /* height: 500px; */
  }
 
  /* 6 celle */
  .col-d-operations {
     width: calc(100% / 3);
     /* debug */
-    height: 200px;
-    background-color: rgb(210, 210, 210);
-    border: 1px solid black;
+    /* height: 200px; */
+    /* background-color: rgb(210, 210, 210); */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.img-operations {
+    width: 100%;
+    /* debug */
+    /* background-color: blueviolet; */
+}
+
+ .img-operations img {
+    width: 100%;
+    display: block;
+ }
+
+.txt-operations {
+    width: 100%;
+    /* debug */
+    /* background-color: pink; */
 }
 
 /* UTILIZZATORI DROPBOX */

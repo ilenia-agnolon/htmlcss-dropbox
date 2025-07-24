@@ -252,10 +252,43 @@ hr {
 .box-business-plan-singolo {
     width: 100%;
     /* debug */
-    height: 150px;
+    /* height: 150px; */
     background-color: rgb(255, 255, 255);
     border: 1px solid #d0d0d0;;
     margin-top: 40px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.cont-title-ent {
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-txt-e-bottone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.txt-ent {
+    width: 70%;
+}
+
+.txt-ent h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.txt-ent p {
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.spazio-bottone {
+    width: 30%;
     display: flex;
     justify-content: center;
 }
